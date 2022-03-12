@@ -1,5 +1,5 @@
 package com.hamitmizrak.utils;
 
 public class PermaLink {
-    //GİTHUB :
+    // GİTHUB : https://github.com/hamitmizrak/PatikaSpringFramework
 }
