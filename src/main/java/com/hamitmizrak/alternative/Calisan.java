@@ -1,10 +1,10 @@
-package com.hamitmizrak.ioclidili;
+package com.hamitmizrak.alternative;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-@Named(value = "ioclicdliCalisan")
+@Named(value = "alternativedi")
 @ApplicationScoped
 public class Calisan {
 
