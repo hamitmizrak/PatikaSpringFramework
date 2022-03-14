@@ -1,4 +1,4 @@
-package com.hamitmizrak.qualifier;
+package com.hamitmizrak.qualifier3;
 
 public interface PatronInterface {
 
