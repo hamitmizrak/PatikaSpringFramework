@@ -1,14 +1,14 @@
-package com.hamitmizrak.alternative;
+package com.hamitmizrak.qualifier;
 
 
-import javax.enterprise.inject.Alternative;
+import javax.enterprise.inject.Default;
 
-@Alternative
+@Default
 public class Patron1 implements PatronInterface {
 
     //@Alternative: aynı anda sadece 1 tane proje çalışıyor diğerleri kapalı
     @Override
     public String surum(String data){
-        return "patron 1 "+data;
+        return "default data:  "+data;
     }
 }
