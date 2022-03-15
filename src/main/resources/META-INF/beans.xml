@@ -16,4 +16,9 @@
         <class>com.hamitmizrak.aop.interceptor.InterceptorYolKesiciAsilIs</class>
     </interceptors>
 
+    <!--decorator-->
+    <decorators>
+        <class>com.hamitmizrak.aop.decorator.EvDecorator</class>
+    </decorators>
+
 </beans>
