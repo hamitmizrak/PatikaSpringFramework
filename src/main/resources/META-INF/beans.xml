@@ -5,9 +5,15 @@
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
 
+    <!--alternative-->
     <alternatives>
         <class>com.hamitmizrak.alternative.Patron1</class>
        <!-- <class>com.hamitmizrak.alternative.Patron2</class>-->
     </alternatives>
+
+    <!--interceptor-->
+    <interceptors>
+        <class>com.hamitmizrak.aop.interceptor.InterceptorYolKesiciAsilIs</class>
+    </interceptors>
 
 </beans>
