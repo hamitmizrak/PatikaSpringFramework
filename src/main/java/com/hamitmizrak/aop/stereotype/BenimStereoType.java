@@ -20,6 +20,5 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Named
 @ApplicationScoped
-
-public @interface BenimStereoType {
+@interface BenimStereoType {
 }
